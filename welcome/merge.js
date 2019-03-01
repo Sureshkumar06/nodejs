@@ -17,11 +17,10 @@ server.listen(port,hostname,function () {
     b.forEach(value => {
       a.push(value);
     })
-
     function removeDuplicate(){
      
       a.forEach(element => {
-        var booleanValue =isInArray(element);
+        var booleanValue = isInArray(element);
         if(booleanValue == false)
         temp.push(element)
       })
